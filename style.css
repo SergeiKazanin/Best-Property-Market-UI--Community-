@@ -1,1 +1,135 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;500;700;900&display=swap");
+html {
+  font-size: 10px;
+  line-height: 10px;
+  color: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 103px;
+}
+.header__logo-img {
+  width: 225px;
+  height: 52px;
+}
+.header__search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 19px;
+}
+.header__search-text {
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #a90000;
+}
+.header__search-icon {
+  width: 21px;
+  height: 21px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 19px;
+}
+.header__nav-link {
+  color: #a90000;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.header__login-icon {
+  width: 19px;
+  height: 19px;
+}
+.header__login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.header__border {
+  width: 0px;
+  height: 27px;
+  border: 1px solid rgba(210, 210, 210, 0.53);
+  margin: 0;
+  padding: 0;
+}
+.header__login-icon {
+  width: 19px;
+  height: 19px;
+}
+.header__login-text {
+  color: #a90000;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+.header__lang-icon {
+  width: 30px;
+  height: 30px;
+}
+.header__login-icon {
+  width: 14px;
+  height: 14px;
+}
+.header__login-icon:hover {
+  cursor: pointer;
+}
+.header__button {
+  border: 0;
+  width: 152px;
+  height: 38px;
+  background-color: #a90000;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #ffffff;
+}
+.header__button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

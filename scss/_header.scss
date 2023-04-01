@@ -1,0 +1,113 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background: $background;
+    height: 103px;
+  }
+  &__logo-img {
+    width: 225px;
+    height: 52px;
+    // margin-left: 52px;
+  }
+  &__search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 19px;
+    // margin-left: 62px;
+  }
+  &__search-text {
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    color: $color-text2;
+  }
+  &__search-icon {
+    width: 21px;
+    height: 21px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 19px;
+  }
+  &__nav-link {
+    color: $color-text2;
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  &__login-icon {
+    width: 19px;
+    height: 19px;
+  }
+
+  &__login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+  }
+  &__border {
+    width: 0px;
+    height: 27px;
+    border: 1px solid rgba(210, 210, 210, 0.53);
+    margin: 0;
+    padding: 0;
+  }
+  &__login-icon {
+    width: 19px;
+    height: 19px;
+  }
+  &__login-text {
+    color: $color-text2;
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  &__lang-icon {
+    width: 30px;
+    height: 30px;
+  }
+  &__login-icon {
+    width: 14px;
+    height: 14px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__button {
+    border: 0;
+    width: 152px;
+    height: 38px;
+    background-color: $button_color;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #ffffff;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

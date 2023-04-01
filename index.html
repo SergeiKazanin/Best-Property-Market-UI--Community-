@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Property Market UI (Community)</title>
-    <script src=""></script>
+    <script src="./index.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <img class="header__logo-img" src="./img/logo.webp" alt="logo" />
+
+        <div class="header__search">
+          <div class="header__search-text">Search...</div>
+          <img
+            class="header__search-icon"
+            src="./img/search.webp"
+            alt="search"
+          />
+        </div>
+
+        <nav class="header__nav">
+          <a class="header__nav-link" href="#">Home</a>
+          <a class="header__nav-link" href="#">About Us</a>
+          <a class="header__nav-link" href="#">Property</a>
+          <a class="header__nav-link" href="#">Agency</a>
+          <a class="header__nav-link" href="#">Services</a>
+          <a class="header__nav-link" href="#">Contact Us</a>
+        </nav>
+
+        <div class="header__login">
+          <div class="header__border"></div>
+          <svg class="header__login-icon">
+            <use xlink:href="./sprite.svg#user"></use>
+          </svg>
+          <div class="header__login-text">Sign In</div>
+          <div class="header__border"></div>
+
+          <img
+            class="header__lang-icon"
+            src="./img/geography.webp"
+            alt="lang-change"
+          />
+          <svg class="header__login-icon">
+            <use xlink:href="./sprite.svg#Polygon1"></use>
+          </svg>
+          <div class="header__border"></div>
+        </div>
+
+        <button class="header__button">
+          <img src="./img/joyent.webp" alt="world" />
+          Add Properties
+        </button>
+      </div>
+    </header>
+    <!-- Header -->
+  </body>
 </html>
