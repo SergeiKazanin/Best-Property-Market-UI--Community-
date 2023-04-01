@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Righteous&family=Roboto:wght@400;500;700;900&family=Scada:wght@400;700&display=swap");
 html {
   font-size: 10px;
   line-height: 10px;
@@ -26,6 +26,10 @@ a:hover {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+p {
+  margin: 0;
 }
 
 .header__wrapper {
@@ -132,4 +136,92 @@ a:hover {
 }
 .header__button:hover {
   cursor: pointer;
+}
+
+.main__wrapper {
+  height: 386px;
+}
+.main__big-search {
+  background-image: url(../img/frame_5.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.main__big-search-content {
+  margin-left: 90px;
+}
+.main__content-small-text {
+  font-family: "Scada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: white;
+}
+.main__content-big-text {
+  font-family: "Scada";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.8rem;
+  color: white;
+  margin-bottom: 32px;
+}
+.main__content-search-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 654px;
+  height: 54px;
+  background: rgba(255, 255, 255, 0.44);
+  border-radius: 9px;
+}
+.main__content-search-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 554px;
+  height: 46px;
+  border-radius: 9px 0px 0px 9px;
+  background-color: white;
+}
+.main__content-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: "PT Sans Caption";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.main__link-icon {
+  width: 9px;
+  height: 9px;
+}
+.main__border {
+  width: 0px;
+  height: 45px;
+  border: 1px solid #eeeeee;
+}
+.main__content-search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+  width: 92px;
+  height: 46px;
+  background-color: #a90000;
+  border-radius: 0px 9px 9px 0px;
+  font-family: "Righteous";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
