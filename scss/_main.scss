@@ -1,14 +1,13 @@
 .main {
   &__wrapper {
-    height: 386px;
   }
-
+  //   bnigsearch
   &__big-search {
     background-image: url(../img/frame_5.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
+    height: 386px;
     display: flex;
     align-items: center;
   }
@@ -89,4 +88,251 @@
     line-height: 1.6rem;
     color: white;
   }
+  //   bnigsearch
+  //   Latest Properties
+  &__properties {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff3f3;
+  }
+  &__properties-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 142px;
+  }
+  &__properties-text-container {
+    margin-left: 90px;
+  }
+  &__properties-text-small {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  &__properties-text-big {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+  }
+  &__properties-buttons {
+    display: flex;
+    gap: 2px;
+    margin-right: 98px;
+  }
+  &__properties-button {
+    border: 0;
+    height: 28px;
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__properties-card-container {
+    padding: 0px 70px 0px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__properties-card {
+    width: 414px;
+    height: 495px;
+    background-color: #ffffff;
+    border-radius: 15px 15px 0px 0px;
+  }
+  &__card-img {
+    background-image: url(../img/rectangle_13.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 263px;
+  }
+  &__card-buttons {
+    padding: 23px 55px 0 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  &__card-button {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+  }
+  &__card-button2 {
+    border: 0;
+    height: 18px;
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    border-radius: 1px;
+  }
+  &__card-button1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  &__card-button1-cont {
+    background-color: white;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__card-button1-img {
+    width: 20px;
+    height: 20px;
+  }
+  &__card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 55px 0 13px;
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: white;
+  }
+  &__card-footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  &__card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 29px 0 0 23px;
+  }
+
+  &__card-text1 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+  &__card-text2 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: $color-text3;
+  }
+  &__card-text3 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #424141;
+  }
+  &__card-icons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+  }
+  &__card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+  }
+  &__card-icon-img {
+    width: 26px;
+    height: 26px;
+  }
+  &__card-icon-text {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  &__card-footer3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__card-border {
+    width: 100%;
+    height: 0px;
+    border: #dfdcdc 1px solid;
+    margin-top: 5px;
+  }
+  &__card-footer-img {
+    width: 27px;
+    height: 27px;
+  }
+  &__card-footer-text {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    color: #828282;
+  }
+  &__card-footer-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+  }
+  &__card-footer-stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+  }
+  &__card-footer-star {
+    width: 15px;
+    height: 15px;
+  }
+  &__button {
+    border: 0;
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    width: 184px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 34px;
+    margin-left: 70px;
+    margin-bottom: 85px;
+  }
+  //   Latest Properties
+}
+
+.red {
+  background-color: $button_color;
+  color: #ffffff;
+}
+.red2 {
+  background-color: $button_color2;
+  color: #ffffff;
+}
+.white {
+  background-color: white;
+  color: #656565;
 }

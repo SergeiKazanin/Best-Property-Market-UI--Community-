@@ -1,0 +1,118 @@
+.maincont1 {
+  &__wrapper {
+  }
+  &__container {
+    padding: 43px 70px 78px 70px;
+  }
+  &__text-headers {
+    display: flex;
+    flex-direction: column;
+  }
+  &__text-header-1 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    color: #5e4e4e;
+  }
+  &__text-header-2 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #b10202;
+  }
+  &__content-blok {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+  }
+  &__content-blok-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__content-blok-element {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  &__content-blok-element-button {
+    background-color: $button_color;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__content-blok-element-text {
+    width: 376px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__content-blok-element-text1 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  &__content-blok-element-text2 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+  &__content-blok-right-img {
+    background-image: url(../img/rectangle_58.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 720px;
+    height: 362px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  &__content-blok-right-content {
+    width: 270px;
+    height: 190px;
+    background: rgba(180, 31, 31, 0.83);
+    border-radius: 7px;
+    margin: 11px;
+    display: flex;
+    flex-direction: column;
+  }
+  &__content-blok-right-content-text1 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: white;
+    margin: 25px 22px 25px 21px;
+  }
+  &__content-blok-right-content-text2 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: white;
+    margin: 0 0 0 21px;
+  }
+  &__content-blok-right-content-text3 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #faff00;
+    margin: 0 0 0 21px;
+  }
+}
