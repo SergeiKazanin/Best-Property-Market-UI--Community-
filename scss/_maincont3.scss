@@ -1,0 +1,63 @@
+.maincont3 {
+  &__wrapper {
+  }
+  &__container {
+    background-image: url(../img/Rectangle\ 94.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1244px;
+    height: 231px;
+    margin: 53px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__text1 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.9rem;
+    line-height: 3.6rem;
+  }
+  &__text2 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #9e0000;
+  }
+  &__search {
+    width: 528px;
+    height: 57px;
+    background: #ffffff;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__search-text {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $color-text2;
+    margin-left: 31px;
+  }
+  &__button-search {
+    background-color: $button_color;
+    width: 122px;
+    height: 35px;
+    border-radius: 6px;
+    border: 0;
+    color: white;
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-right: 11px;
+  }
+}

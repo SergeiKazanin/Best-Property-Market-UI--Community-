@@ -27,4 +27,8 @@
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 11" id="Polygon1">
     <path d="M7 11L0.937822 0.5L13.0622 0.5L7 11Z" fill="#FF0000"></path>
   </symbol>
+  <symbol fill="none"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 10" id="Polygon5">
+    <path d="M6.64195 5.05365L0.552262 9.62392L0.363795 0.870746L6.64195 5.05365Z" fill="#FF0000"></path>
+  </symbol>
 </svg>

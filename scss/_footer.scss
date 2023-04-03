@@ -1,0 +1,32 @@
+.footer {
+  &__wrapper {
+    height: 45px;
+    background: #f5e2e2;
+  }
+  &__container {
+    width: 1244px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  &__text-cont {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__text1 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  &__text2 {
+    font-family: "Bai Jamjuree";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #4b0202;
+  }
+}
