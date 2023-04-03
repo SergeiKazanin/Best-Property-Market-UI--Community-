@@ -105,6 +105,10 @@ p {
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
+.header__login-text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .header__lang-icon {
   width: 30px;
   height: 30px;
@@ -112,9 +116,6 @@ p {
 .header__login-icon {
   width: 14px;
   height: 14px;
-}
-.header__login-icon:hover {
-  cursor: pointer;
 }
 .header__button {
   border: 0;
@@ -872,4 +873,116 @@ p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: #4b0202;
+}
+
+.login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(131, 100, 100, 0.83);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+.login__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1107px;
+  height: 557px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
+  overflow: hidden;
+}
+.login__form {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+  flex-direction: column;
+}
+.login__blok1 {
+  width: 40%;
+  height: 100%;
+  background-image: url(../img/logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.login__blok2 {
+  width: 60%;
+  height: 100%;
+  background-color: #615c5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login__escape {
+  margin-left: 400px;
+}
+.login__escape:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.login__text {
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+}
+.login__button {
+  width: 136px;
+  height: 53px;
+  border: 0;
+  color: white;
+  border-radius: 6px;
+  background-color: #a90000;
+}
+.login__button:hover {
+  cursor: pointer;
+}
+.login__img {
+  width: 50px;
+  height: 50px;
+  border-right: 1px solid #b8b2b2;
+}
+.login__inp {
+  width: 90%;
+  height: 90%;
+  border: 0;
+  border-radius: 7px;
+  font-size: 2.8rem;
+  outline: none;
+}
+.login__password, .login__adres {
+  width: 474px;
+  height: 53px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px;
+}
+.login__checkbox {
+  width: 20px;
+  height: 20px;
+}
+.login__checkbox:hover {
+  cursor: pointer;
+}
+.login__lost-pass {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

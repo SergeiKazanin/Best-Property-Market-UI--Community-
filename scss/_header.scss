@@ -77,6 +77,10 @@
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 1.5rem;
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
   &__lang-icon {
     width: 30px;
@@ -85,9 +89,6 @@
   &__login-icon {
     width: 14px;
     height: 14px;
-    &:hover {
-      cursor: pointer;
-    }
   }
   &__button {
     border: 0;
