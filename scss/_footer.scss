@@ -4,9 +4,11 @@
     background: #f5e2e2;
   }
   &__container {
-    width: 1244px;
-    margin: 0 auto;
+    margin: 60px 70px 60px 70px;
     height: 100%;
+    @include mobile-big {
+      margin: 60px 0px 60px 0px;
+    }
   }
   &__text-cont {
     height: 100%;

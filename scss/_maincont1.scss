@@ -1,5 +1,8 @@
 .maincont1 {
   &__wrapper {
+    @include mobile-big {
+      display: none;
+    }
   }
   &__container {
     padding: 43px 70px 78px 70px;
@@ -28,11 +31,26 @@
     display: flex;
     justify-content: space-between;
     margin-top: 56px;
+    gap: 50px;
+    @include small-laptop {
+      flex-direction: column;
+      gap: 30px;
+    }
   }
   &__content-blok-left {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 40%;
+    @include small-laptop {
+      width: 80%;
+    }
+  }
+  &__content-blok-right {
+    width: 60%;
+    @include small-laptop {
+      width: 80%;
+    }
   }
   &__content-blok-element {
     display: flex;
@@ -41,6 +59,7 @@
   }
   &__content-blok-element-button {
     background-color: $button_color;
+    min-width: 100px;
     width: 100px;
     height: 100px;
     border-radius: 5px;
@@ -49,7 +68,6 @@
     align-items: center;
   }
   &__content-blok-element-text {
-    width: 376px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -73,7 +91,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 720px;
     height: 362px;
     display: flex;
     justify-content: end;

@@ -5,20 +5,27 @@
     display: flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
   }
   &__img1 {
     background-color: $color-text2;
-    width: 361px;
+    width: 25%;
     height: 525px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    @include small-laptop {
+      width: 33.3%;
+    }
+    @include tablet {
+      width: 50%;
+    }
   }
 
   &__text1 {
-    width: 263px;
+    width: 90%;
     font-family: "Bai Jamjuree";
     font-style: normal;
     font-weight: 700;
@@ -27,7 +34,7 @@
     color: white;
   }
   &__text2 {
-    width: 263px;
+    width: 90%;
     font-family: "Bai Jamjuree";
     font-style: normal;
     font-weight: 600;
@@ -41,23 +48,39 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 361px;
+    width: 25%;
     height: 525px;
+    @include small-laptop {
+      width: 33.3%;
+    }
+    @include tablet {
+      width: 50%;
+    }
   }
   &__img3 {
     background-image: url(../img/rectangle_64.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 361px;
+    width: 25%;
     height: 525px;
+    @include small-laptop {
+      width: 33.3%;
+    }
+    @include tablet {
+      display: none;
+      width: 50%;
+    }
   }
   &__img4 {
     background-image: url(../img/rectangle_65.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 361px;
+    width: 25%;
     height: 525px;
+    @include small-laptop {
+      display: none;
+    }
   }
 }

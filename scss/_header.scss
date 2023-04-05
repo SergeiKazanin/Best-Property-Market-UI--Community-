@@ -3,13 +3,17 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    // background: $background;
     height: 103px;
+    @include mobile-big {
+      flex-direction: column;
+    }
   }
   &__logo-img {
     width: 225px;
     height: 52px;
-    // margin-left: 52px;
+    @include tablet {
+      display: none;
+    }
   }
   &__search {
     display: flex;
@@ -17,7 +21,9 @@
     align-items: center;
     gap: 8px;
     padding: 7px 19px;
-    // margin-left: 62px;
+    @include small-laptop {
+      display: none;
+    }
   }
   &__search-text {
     font-family: "Righteous";
@@ -109,6 +115,9 @@
     color: #ffffff;
     &:hover {
       cursor: pointer;
+    }
+    @include small-laptop {
+      display: none;
     }
   }
 }

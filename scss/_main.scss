@@ -10,6 +10,9 @@
     height: 386px;
     display: flex;
     align-items: center;
+    @include tablet {
+      display: none;
+    }
   }
 
   &__big-search-content {
@@ -100,9 +103,17 @@
     justify-content: space-between;
     align-items: center;
     height: 142px;
+    @include mobile-big {
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+    }
   }
   &__properties-text-container {
     margin-left: 90px;
+    @include mobile-big {
+      margin-left: 0px;
+    }
   }
   &__properties-text-small {
     font-family: "PT Sans Caption";
@@ -122,6 +133,9 @@
     display: flex;
     gap: 2px;
     margin-right: 98px;
+    @include mobile-big {
+      margin-right: 0px;
+    }
   }
   &__properties-button {
     border: 0;
@@ -142,6 +156,10 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    @include tablet {
+      padding: 0;
+      justify-content: center;
+    }
   }
   &__properties-card {
     width: 414px;

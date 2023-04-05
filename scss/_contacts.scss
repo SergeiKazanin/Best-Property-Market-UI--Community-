@@ -2,19 +2,30 @@
   &__wrapper {
   }
   &__contanier {
-    margin: 60px auto;
-    width: 1244px;
-    height: 207px;
+    margin: 60px 70px 60px 70px;
     display: flex;
     justify-content: space-between;
+    @include small-laptop {
+      margin: 60px 0px 60px 0px;
+    }
+    @include mobile-big {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+    }
   }
   &__blok1 {
-    width: 270px;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 10px;
+    @include small-laptop {
+      display: none;
+      width: 50%;
+    }
   }
   &__blok1-text1 {
     font-family: "Bai Jamjuree";
@@ -33,12 +44,15 @@
   }
 
   &__blok2 {
-    width: 230px;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 12px;
+    @include small-laptop {
+      display: none;
+    }
   }
   &__blok2-text-cont {
     display: flex;
@@ -63,12 +77,20 @@
   }
 
   &__blok3 {
-    width: 300px;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 10px;
+    @include small-laptop {
+      width: 50%;
+    }
+    @include mobile-big {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
   }
   &__blok3-cont {
     display: flex;
@@ -105,12 +127,20 @@
     background-color: $button_color;
   }
   &__blok4 {
-    width: 252px;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
     gap: 26px;
+    @include small-laptop {
+      width: 50%;
+    }
+    @include mobile-big {
+      width: 80%;
+      justify-content: center;
+      align-items: center;
+    }
   }
   &__blok4-text1 {
     font-family: "Bai Jamjuree";
@@ -128,7 +158,7 @@
     line-height: 1.4rem;
   }
   &__blok4-button {
-    width: 25.2rem;
+    width: 80%;
     height: 3.5rem;
     border: 0;
     display: flex;
