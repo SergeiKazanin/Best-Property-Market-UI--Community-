@@ -11,13 +11,15 @@
   transform: translateX(-220%);
   transition: all 0.5s;
   &__wrapper {
+    width: 100%;
   }
 
   &__container {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1107px;
+    width: 90%;
     height: 557px;
     background-color: white;
     display: flex;
@@ -40,6 +42,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+    @include tablet {
+      display: none;
+    }
   }
   &__blok2 {
     width: 60%;
@@ -49,9 +54,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include tablet {
+      width: 100%;
+    }
+  }
+  &__form {
+    width: 80%;
+  }
+  &__escape-cont {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
   }
   &__escape {
-    margin-left: 400px;
     &:hover {
       cursor: pointer;
       transform: scale(1.2);
@@ -91,7 +107,7 @@
   }
   &__password,
   &__adres {
-    width: 474px;
+    width: 100%;
     height: 53px;
     background-color: white;
     display: flex;

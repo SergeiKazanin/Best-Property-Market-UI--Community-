@@ -1086,11 +1086,15 @@ p {
   transform: translateX(-220%);
   transition: all 0.5s;
 }
+.login__wrapper {
+  width: 100%;
+}
 .login__container {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1107px;
+  width: 90%;
   height: 557px;
   background-color: white;
   display: flex;
@@ -1114,6 +1118,11 @@ p {
   background-position: center;
   background-size: auto;
 }
+@media (max-width: 768px) {
+  .login__blok1 {
+    display: none;
+  }
+}
 .login__blok2 {
   width: 60%;
   height: 100%;
@@ -1123,8 +1132,19 @@ p {
   justify-content: center;
   align-items: center;
 }
-.login__escape {
-  margin-left: 400px;
+@media (max-width: 768px) {
+  .login__blok2 {
+    width: 100%;
+  }
+}
+.login__form {
+  width: 80%;
+}
+.login__escape-cont {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 .login__escape:hover {
   cursor: pointer;
@@ -1163,7 +1183,7 @@ p {
   outline: none;
 }
 .login__password, .login__adres {
-  width: 474px;
+  width: 100%;
   height: 53px;
   background-color: white;
   display: flex;
