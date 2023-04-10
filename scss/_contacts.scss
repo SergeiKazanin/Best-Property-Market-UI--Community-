@@ -6,9 +6,9 @@
     display: flex;
     justify-content: space-between;
     @include small-laptop {
-      margin: 60px 0px 60px 0px;
+      // margin: 60px 0px 60px 0px;
     }
-    @include mobile-big {
+    @include tablet {
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -86,7 +86,7 @@
     @include small-laptop {
       width: 50%;
     }
-    @include mobile-big {
+    @include tablet {
       width: 100%;
       justify-content: center;
       align-items: center;
@@ -136,8 +136,8 @@
     @include small-laptop {
       width: 50%;
     }
-    @include mobile-big {
-      width: 80%;
+    @include tablet {
+      width: 100%;
       justify-content: center;
       align-items: center;
     }
@@ -156,6 +156,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.4rem;
+    width: 80%;
   }
   &__blok4-button {
     width: 80%;
